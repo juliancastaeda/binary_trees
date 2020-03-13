@@ -15,7 +15,7 @@ if (parent == NULL)
 {
 return (NULL);
 }
-new_node = malloc(sizeof(binary_tree_t));
+node = malloc(sizeof(binary_tree_t));
 if (node == NULL)
 {
 return (NULL);
