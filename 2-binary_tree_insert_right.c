@@ -25,7 +25,7 @@ node->n = value;
 node->left = NULL;
 node->right = NULL;
 
-if (parent->left == NULL)
+if (parent->right == NULL)
 {
 parent->right = node;
 node->parent = parent;
