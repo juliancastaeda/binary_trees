@@ -3,7 +3,7 @@
 /**
  * binary_tree_insert_right - create new node
  * @parent: pointer parent
- * @value: value nodo
+ * @value: value node
  *
  * Return: pointer new node or NULL
  */
@@ -32,10 +32,10 @@ node->parent = parent;
 }
 else
 {
-parent->right->parent = new_node;
-new_node->parent = parent;
-new_node->right = parent->right;
-parent->right = new_node;
+parent->right->parent = node;
+node->parent = parent;
+node->right = parent->right;
+parent->right = node;
 }
 return (node);
 }
