@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * print_dlistint - print d_listint
+ * binary_tree_node - create new node
  * @parent: pointer parent
  * @value: value nodo
  *
@@ -26,7 +26,3 @@ parent = node;
 
 return (node);
 }
-  
-  
-  
-
